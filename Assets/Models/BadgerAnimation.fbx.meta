@@ -1,0 +1,894 @@
+fileFormatVersion: 2
+guid: ef8cc35dca4c10048b63b9e783440004
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: BadgerBody
+    100004: BadgerBody1
+    100006: BadgerMEsh
+    100008: BadgerRootCtrl
+    100010: BadgerShield
+    100012: BallAttachment
+    100014: BallAttachmentBone
+    100016: Character
+    100018: ClothCtrl
+    100020: EyeCtrl
+    100022: HeadJnt1
+    100024: HeadJnt2
+    100026: HeadJnt3
+    100028: HeadJnt4
+    100030: ikHandle10
+    100032: ikHandle11
+    100034: ikHandle12
+    100036: ikHandle13
+    100038: ikHandle14
+    100040: ikHandle15
+    100042: ikHandle16
+    100044: ikHandle17
+    100046: ikHandle18
+    100048: ikHandle19
+    100050: ikHandle20
+    100052: ikHandle21
+    100054: ikHandle3
+    100056: ikHandle4
+    100058: ikHandle5
+    100060: ikHandle6
+    100062: ikHandle7
+    100064: ikHandle8
+    100066: ikHandle9
+    100068: joint20
+    100070: L_ArmCtrl
+    100072: L_ArmCtrl 1
+    100074: L_ArmCtrlGrp
+    100076: L_ArmCtrlGrp1
+    100078: L_ArmCtrlJntFK
+    100080: L_ArmPV
+    100082: L_ArmSkinCtrlJnt
+    100084: L_ArmSkinJntIK
+    100086: L_BadgerEye
+    100088: L_Ball_CtrlSkinJnt
+    100090: L_BallIK
+    100092: L_Blend
+    100094: L_Clavicle
+    100096: L_Foot_CtrlSkinJnt
+    100098: L_FootCtrl
+    100100: L_FootIK
+    100102: L_Hip_CtrlSkinJnt
+    100104: L_Index_01
+    100106: L_Index_02
+    100108: L_IndexCtrl
+    100110: L_IndexCtrlGrp
+    100112: L_Knee_CtrlSkinJnt
+    100114: L_LegIK
+    100116: L_LegPV
+    100118: L_LowerArmCtrl
+    100120: L_LowerArmCtrlGrp
+    100122: L_LowerArmCtrlJntFK
+    100124: L_LowerArmCtrlJntIK
+    100126: L_LowerArmSkinCtrlJnt
+    100128: L_Middle_01
+    100130: L_MiddleCtrl
+    100132: L_MiddleCtrlGrp
+    100134: L_Pinky_01
+    100136: L_PinkyCtrl
+    100138: L_PinkyCtrlGrp
+    100140: L_ShoulderCtrl
+    100142: L_ShoulderPad
+    100144: L_ShoulderPad1
+    100146: L_ShoulderPAd_02
+    100148: L_SLAVE_ArmSkinCtrlJnt
+    100150: L_SLAVE_Ball_CtrlSkinJnt
+    100152: L_SLAVE_Clavicle
+    100154: L_SLAVE_Foot_CtrlSkinJnt
+    100156: L_SLAVE_Hip_CtrlSkinJnt
+    100158: L_SLAVE_Index_01
+    100160: L_SLAVE_Index_02
+    100162: L_SLAVE_Knee_CtrlSkinJnt
+    100164: L_SLAVE_LowerArmCtrlJntFK
+    100166: L_SLAVE_Middle_01
+    100168: L_SLAVE_Pinky_01
+    100170: L_SLAVE_ShoulderPAd
+    100172: L_SLAVE_ShoulderPAd_02
+    100174: L_SLAVE_Thumb_01
+    100176: L_SLAVE_Thumb_02
+    100178: L_SLAVE_Toe_CtrlSkinJnt
+    100180: L_SLAVE_Toe_CtrlSkinJnt 1
+    100182: L_Thumb_01
+    100184: L_Thumb_02
+    100186: L_ThumbCtrl
+    100188: L_ThumbCtrlGrp
+    100190: L_Toe_CtrlSkinJnt
+    100192: L_Toe_CtrlSkinJnt 1
+    100194: L_WhristCtrl
+    100196: L_WhristCtrlGrp
+    100198: L_WhristJntFK
+    100200: L_WhristJntIK
+    100202: L_WhristSkinJnt
+    100204: locator1
+    100206: locator2
+    100208: Middle_02
+    100210: Middle_02 1
+    100212: Middle_02 2
+    100214: Middle_02 3
+    100216: Mouth
+    100218: nurbsCircle1
+    100220: Pinky_02
+    100222: Pinky_02 1
+    100224: Pinky_02 2
+    100226: R_ArmCtrl
+    100228: R_ArmCtrl 1
+    100230: R_ArmCtrlGrp1
+    100232: R_ArmCtrlGrp2
+    100234: R_ArmCtrlJntFK
+    100236: R_ArmCtrlJntIK
+    100238: R_ArmPV
+    100240: R_ArmSkinCtrlJnt
+    100242: R_BadgerEye
+    100244: R_Ball_CtrlSkinJnt
+    100246: R_BallIK
+    100248: R_Blend
+    100250: R_Clavicle
+    100252: R_Foot_CtrlSkinJnt
+    100254: R_FootCtrl
+    100256: R_FootIK
+    100258: R_Hip_CtrlSkinJnt1
+    100260: R_Index_01
+    100262: R_Index_02
+    100264: R_IndexCtrl
+    100266: R_IndexCtrlGrp
+    100268: R_Knee_CtrlSkinJnt
+    100270: R_LegIK
+    100272: R_LegPV
+    100274: R_LowerArmCtrl
+    100276: R_LowerArmCtrlGrp
+    100278: R_LowerArmCtrlJntFK
+    100280: R_LowerArmCtrlJntIK
+    100282: R_LowerArmSkinCtrlJnt
+    100284: R_Middle_01
+    100286: R_MiddleCtrl
+    100288: R_MiddleCtrlGrp
+    100290: R_Pinky_01
+    100292: R_PinkyCtrl
+    100294: R_PinkyCtrlGrp
+    100296: R_ShoulderCtrl
+    100298: R_ShoulderPad
+    100300: R_ShoulderPad1
+    100302: R_ShoulderPAd_02
+    100304: R_SLAVE_ArmSkinCtrlJnt
+    100306: R_SLAVE_Ball_CtrlSkinJnt
+    100308: R_SLAVE_Clavicle
+    100310: R_SLAVE_Foot_CtrlSkinJnt
+    100312: R_SLAVE_Hip_CtrlSkinJnt1
+    100314: R_SLAVE_Index_01
+    100316: R_SLAVE_Index_02
+    100318: R_SLAVE_Knee_CtrlSkinJnt
+    100320: R_SLAVE_LowerArmCtrlJntFK
+    100322: R_SLAVE_Middle_01
+    100324: R_SLAVE_Pinky_01
+    100326: R_SLAVE_ShoulderPad
+    100328: R_SLAVE_ShoulderPAd_02
+    100330: R_SLAVE_Thumb_01
+    100332: R_SLAVE_Thumb_02
+    100334: R_SLAVE_WhristJntIK
+    100336: R_Thumb_01
+    100338: R_Thumb_02
+    100340: R_ThumbCtrl
+    100342: R_ThumbCtrlGrp
+    100344: R_WhristCtrl
+    100346: R_WhristCtrlGrp
+    100348: R_WhristJntFK
+    100350: R_WhristJntIK
+    100352: R_WhristSkinJnt
+    100354: Robe
+    100356: Robe_01
+    100358: Robe_010
+    100360: Robe_011
+    100362: Robe_012
+    100364: Robe_013
+    100366: Robe_014
+    100368: Robe_015
+    100370: Robe_016
+    100372: Robe_017
+    100374: Robe_02
+    100376: Robe_02 1
+    100378: Robe_02 10
+    100380: Robe_02 11
+    100382: Robe_02 12
+    100384: Robe_02 13
+    100386: Robe_02 14
+    100388: Robe_02 2
+    100390: Robe_02 3
+    100392: Robe_02 4
+    100394: Robe_02 5
+    100396: Robe_02 6
+    100398: Robe_02 7
+    100400: Robe_02 8
+    100402: Robe_02 9
+    100404: Robe_03
+    100406: Robe_03 1
+    100408: Robe_03 10
+    100410: Robe_03 11
+    100412: Robe_03 12
+    100414: Robe_03 13
+    100416: Robe_03 14
+    100418: Robe_03 2
+    100420: Robe_03 3
+    100422: Robe_03 4
+    100424: Robe_03 5
+    100426: Robe_03 6
+    100428: Robe_03 7
+    100430: Robe_03 8
+    100432: Robe_03 9
+    100434: Robe_04
+    100436: Robe_05
+    100438: Robe_06
+    100440: Robe_07
+    100442: Robe_08
+    100444: Robe_09
+    100446: Seperated
+    100448: Shield
+    100450: shieldCtrl
+    100452: SLAVE_HeadJnt1
+    100454: SLAVE_HeadJnt2
+    100456: SLAVE_HeadJnt3
+    100458: SLAVE_HeadJnt4
+    100460: SLAVE_Pinky_02
+    100462: SLAVE_Shield
+    100464: SLAVE_Spine_01
+    100466: SLAVE_Spine_02
+    100468: SLAVE_Spine_03
+    100470: SLAVE_Spine_04
+    100472: SLAVE_Tail_01
+    100474: SLAVE_Tail_02
+    100476: SlaveRig
+    100478: Spine_01
+    100480: Spine_01_Ctrl
+    100482: Spine_01_Grp
+    100484: Spine_02
+    100486: Spine_02_Ctrl
+    100488: Spine_02_Grp
+    100490: Spine_03
+    100492: Spine_03_Ctrl
+    100494: Spine_03_Grp
+    100496: Spine_04
+    100498: Tail
+    100500: Tail_01
+    100502: Tail_02
+    100504: UpperBodyCtrl
+    100506: UpperBodyCtrlGrp
+    100508: L_Shoulder
+    100510: L_SLAVE_WhristFK
+    100512: L_SLAVESleeveJnt_1
+    100514: L_SLAVESleeveJnt_10
+    100516: L_SLAVESleeveJnt_2
+    100518: L_SLAVESleeveJnt_3
+    100520: L_SLAVESleeveJnt_4
+    100522: L_SLAVESleeveJnt_5
+    100524: L_SLAVESleeveJnt_6
+    100526: L_SLAVESleeveJnt_7
+    100528: L_SLAVESleeveJnt_8
+    100530: L_SLAVESleeveJnt_9
+    100532: L_Sleeve
+    100534: R_Shoulder
+    100536: R_SLAVE_Middle_02
+    100538: R_SLAVESleeveJnt_1
+    100540: R_SLAVESleeveJnt_2
+    100542: R_SLAVESleeveJnt_3
+    100544: R_SLAVESleeveJnt_4
+    100546: R_SLAVESleeveJnt_5
+    100548: R_SLAVESleeveJnt_6
+    100550: R_SLAVESleeveJnt_7
+    100552: R_SLAVESleeveJnt_8
+    100554: R_SLAVESleeveJnt_9
+    100556: R_Sleeve
+    100558: SLAVE_BallAttachmentJoint
+    100560: SLAVE_UpperSleeve_1
+    100562: SLAVE_UpperSleeve_2
+    100564: SLAVE_UpperSleeve_3
+    100566: SLAVE_UpperSleeve_4
+    100568: SLAVE_UpperSleeve_5
+    100570: SLAVE_UpperSleeve_6
+    100572: SLAVE_UpperSleeve_7
+    100574: SLAVEStunAttackmentJnt
+    100576: StunAttachment
+    100578: UpperSleeve
+    400000: //RootNode
+    400002: BadgerBody
+    400004: BadgerBody1
+    400006: BadgerMEsh
+    400008: BadgerRootCtrl
+    400010: BadgerShield
+    400012: BallAttachment
+    400014: BallAttachmentBone
+    400016: Character
+    400018: ClothCtrl
+    400020: EyeCtrl
+    400022: HeadJnt1
+    400024: HeadJnt2
+    400026: HeadJnt3
+    400028: HeadJnt4
+    400030: ikHandle10
+    400032: ikHandle11
+    400034: ikHandle12
+    400036: ikHandle13
+    400038: ikHandle14
+    400040: ikHandle15
+    400042: ikHandle16
+    400044: ikHandle17
+    400046: ikHandle18
+    400048: ikHandle19
+    400050: ikHandle20
+    400052: ikHandle21
+    400054: ikHandle3
+    400056: ikHandle4
+    400058: ikHandle5
+    400060: ikHandle6
+    400062: ikHandle7
+    400064: ikHandle8
+    400066: ikHandle9
+    400068: joint20
+    400070: L_ArmCtrl
+    400072: L_ArmCtrl 1
+    400074: L_ArmCtrlGrp
+    400076: L_ArmCtrlGrp1
+    400078: L_ArmCtrlJntFK
+    400080: L_ArmPV
+    400082: L_ArmSkinCtrlJnt
+    400084: L_ArmSkinJntIK
+    400086: L_BadgerEye
+    400088: L_Ball_CtrlSkinJnt
+    400090: L_BallIK
+    400092: L_Blend
+    400094: L_Clavicle
+    400096: L_Foot_CtrlSkinJnt
+    400098: L_FootCtrl
+    400100: L_FootIK
+    400102: L_Hip_CtrlSkinJnt
+    400104: L_Index_01
+    400106: L_Index_02
+    400108: L_IndexCtrl
+    400110: L_IndexCtrlGrp
+    400112: L_Knee_CtrlSkinJnt
+    400114: L_LegIK
+    400116: L_LegPV
+    400118: L_LowerArmCtrl
+    400120: L_LowerArmCtrlGrp
+    400122: L_LowerArmCtrlJntFK
+    400124: L_LowerArmCtrlJntIK
+    400126: L_LowerArmSkinCtrlJnt
+    400128: L_Middle_01
+    400130: L_MiddleCtrl
+    400132: L_MiddleCtrlGrp
+    400134: L_Pinky_01
+    400136: L_PinkyCtrl
+    400138: L_PinkyCtrlGrp
+    400140: L_ShoulderCtrl
+    400142: L_ShoulderPad
+    400144: L_ShoulderPad1
+    400146: L_ShoulderPAd_02
+    400148: L_SLAVE_ArmSkinCtrlJnt
+    400150: L_SLAVE_Ball_CtrlSkinJnt
+    400152: L_SLAVE_Clavicle
+    400154: L_SLAVE_Foot_CtrlSkinJnt
+    400156: L_SLAVE_Hip_CtrlSkinJnt
+    400158: L_SLAVE_Index_01
+    400160: L_SLAVE_Index_02
+    400162: L_SLAVE_Knee_CtrlSkinJnt
+    400164: L_SLAVE_LowerArmCtrlJntFK
+    400166: L_SLAVE_Middle_01
+    400168: L_SLAVE_Pinky_01
+    400170: L_SLAVE_ShoulderPAd
+    400172: L_SLAVE_ShoulderPAd_02
+    400174: L_SLAVE_Thumb_01
+    400176: L_SLAVE_Thumb_02
+    400178: L_SLAVE_Toe_CtrlSkinJnt
+    400180: L_SLAVE_Toe_CtrlSkinJnt 1
+    400182: L_Thumb_01
+    400184: L_Thumb_02
+    400186: L_ThumbCtrl
+    400188: L_ThumbCtrlGrp
+    400190: L_Toe_CtrlSkinJnt
+    400192: L_Toe_CtrlSkinJnt 1
+    400194: L_WhristCtrl
+    400196: L_WhristCtrlGrp
+    400198: L_WhristJntFK
+    400200: L_WhristJntIK
+    400202: L_WhristSkinJnt
+    400204: locator1
+    400206: locator2
+    400208: Middle_02
+    400210: Middle_02 1
+    400212: Middle_02 2
+    400214: Middle_02 3
+    400216: Mouth
+    400218: nurbsCircle1
+    400220: Pinky_02
+    400222: Pinky_02 1
+    400224: Pinky_02 2
+    400226: R_ArmCtrl
+    400228: R_ArmCtrl 1
+    400230: R_ArmCtrlGrp1
+    400232: R_ArmCtrlGrp2
+    400234: R_ArmCtrlJntFK
+    400236: R_ArmCtrlJntIK
+    400238: R_ArmPV
+    400240: R_ArmSkinCtrlJnt
+    400242: R_BadgerEye
+    400244: R_Ball_CtrlSkinJnt
+    400246: R_BallIK
+    400248: R_Blend
+    400250: R_Clavicle
+    400252: R_Foot_CtrlSkinJnt
+    400254: R_FootCtrl
+    400256: R_FootIK
+    400258: R_Hip_CtrlSkinJnt1
+    400260: R_Index_01
+    400262: R_Index_02
+    400264: R_IndexCtrl
+    400266: R_IndexCtrlGrp
+    400268: R_Knee_CtrlSkinJnt
+    400270: R_LegIK
+    400272: R_LegPV
+    400274: R_LowerArmCtrl
+    400276: R_LowerArmCtrlGrp
+    400278: R_LowerArmCtrlJntFK
+    400280: R_LowerArmCtrlJntIK
+    400282: R_LowerArmSkinCtrlJnt
+    400284: R_Middle_01
+    400286: R_MiddleCtrl
+    400288: R_MiddleCtrlGrp
+    400290: R_Pinky_01
+    400292: R_PinkyCtrl
+    400294: R_PinkyCtrlGrp
+    400296: R_ShoulderCtrl
+    400298: R_ShoulderPad
+    400300: R_ShoulderPad1
+    400302: R_ShoulderPAd_02
+    400304: R_SLAVE_ArmSkinCtrlJnt
+    400306: R_SLAVE_Ball_CtrlSkinJnt
+    400308: R_SLAVE_Clavicle
+    400310: R_SLAVE_Foot_CtrlSkinJnt
+    400312: R_SLAVE_Hip_CtrlSkinJnt1
+    400314: R_SLAVE_Index_01
+    400316: R_SLAVE_Index_02
+    400318: R_SLAVE_Knee_CtrlSkinJnt
+    400320: R_SLAVE_LowerArmCtrlJntFK
+    400322: R_SLAVE_Middle_01
+    400324: R_SLAVE_Pinky_01
+    400326: R_SLAVE_ShoulderPad
+    400328: R_SLAVE_ShoulderPAd_02
+    400330: R_SLAVE_Thumb_01
+    400332: R_SLAVE_Thumb_02
+    400334: R_SLAVE_WhristJntIK
+    400336: R_Thumb_01
+    400338: R_Thumb_02
+    400340: R_ThumbCtrl
+    400342: R_ThumbCtrlGrp
+    400344: R_WhristCtrl
+    400346: R_WhristCtrlGrp
+    400348: R_WhristJntFK
+    400350: R_WhristJntIK
+    400352: R_WhristSkinJnt
+    400354: Robe
+    400356: Robe_01
+    400358: Robe_010
+    400360: Robe_011
+    400362: Robe_012
+    400364: Robe_013
+    400366: Robe_014
+    400368: Robe_015
+    400370: Robe_016
+    400372: Robe_017
+    400374: Robe_02
+    400376: Robe_02 1
+    400378: Robe_02 10
+    400380: Robe_02 11
+    400382: Robe_02 12
+    400384: Robe_02 13
+    400386: Robe_02 14
+    400388: Robe_02 2
+    400390: Robe_02 3
+    400392: Robe_02 4
+    400394: Robe_02 5
+    400396: Robe_02 6
+    400398: Robe_02 7
+    400400: Robe_02 8
+    400402: Robe_02 9
+    400404: Robe_03
+    400406: Robe_03 1
+    400408: Robe_03 10
+    400410: Robe_03 11
+    400412: Robe_03 12
+    400414: Robe_03 13
+    400416: Robe_03 14
+    400418: Robe_03 2
+    400420: Robe_03 3
+    400422: Robe_03 4
+    400424: Robe_03 5
+    400426: Robe_03 6
+    400428: Robe_03 7
+    400430: Robe_03 8
+    400432: Robe_03 9
+    400434: Robe_04
+    400436: Robe_05
+    400438: Robe_06
+    400440: Robe_07
+    400442: Robe_08
+    400444: Robe_09
+    400446: Seperated
+    400448: Shield
+    400450: shieldCtrl
+    400452: SLAVE_HeadJnt1
+    400454: SLAVE_HeadJnt2
+    400456: SLAVE_HeadJnt3
+    400458: SLAVE_HeadJnt4
+    400460: SLAVE_Pinky_02
+    400462: SLAVE_Shield
+    400464: SLAVE_Spine_01
+    400466: SLAVE_Spine_02
+    400468: SLAVE_Spine_03
+    400470: SLAVE_Spine_04
+    400472: SLAVE_Tail_01
+    400474: SLAVE_Tail_02
+    400476: SlaveRig
+    400478: Spine_01
+    400480: Spine_01_Ctrl
+    400482: Spine_01_Grp
+    400484: Spine_02
+    400486: Spine_02_Ctrl
+    400488: Spine_02_Grp
+    400490: Spine_03
+    400492: Spine_03_Ctrl
+    400494: Spine_03_Grp
+    400496: Spine_04
+    400498: Tail
+    400500: Tail_01
+    400502: Tail_02
+    400504: UpperBodyCtrl
+    400506: UpperBodyCtrlGrp
+    400508: L_Shoulder
+    400510: L_SLAVE_WhristFK
+    400512: L_SLAVESleeveJnt_1
+    400514: L_SLAVESleeveJnt_10
+    400516: L_SLAVESleeveJnt_2
+    400518: L_SLAVESleeveJnt_3
+    400520: L_SLAVESleeveJnt_4
+    400522: L_SLAVESleeveJnt_5
+    400524: L_SLAVESleeveJnt_6
+    400526: L_SLAVESleeveJnt_7
+    400528: L_SLAVESleeveJnt_8
+    400530: L_SLAVESleeveJnt_9
+    400532: L_Sleeve
+    400534: R_Shoulder
+    400536: R_SLAVE_Middle_02
+    400538: R_SLAVESleeveJnt_1
+    400540: R_SLAVESleeveJnt_2
+    400542: R_SLAVESleeveJnt_3
+    400544: R_SLAVESleeveJnt_4
+    400546: R_SLAVESleeveJnt_5
+    400548: R_SLAVESleeveJnt_6
+    400550: R_SLAVESleeveJnt_7
+    400552: R_SLAVESleeveJnt_8
+    400554: R_SLAVESleeveJnt_9
+    400556: R_Sleeve
+    400558: SLAVE_BallAttachmentJoint
+    400560: SLAVE_UpperSleeve_1
+    400562: SLAVE_UpperSleeve_2
+    400564: SLAVE_UpperSleeve_3
+    400566: SLAVE_UpperSleeve_4
+    400568: SLAVE_UpperSleeve_5
+    400570: SLAVE_UpperSleeve_6
+    400572: SLAVE_UpperSleeve_7
+    400574: SLAVEStunAttackmentJnt
+    400576: StunAttachment
+    400578: UpperSleeve
+    2300000: BadgerBody1
+    2300002: BadgerShield
+    2300004: L_ArmPV
+    2300006: L_LegPV
+    2300008: R_ArmPV
+    2300010: R_LegPV
+    2300012: BallAttachment
+    3300000: BadgerBody1
+    3300002: BadgerShield
+    3300004: L_ArmPV
+    3300006: L_LegPV
+    3300008: R_ArmPV
+    3300010: R_LegPV
+    3300012: BallAttachment
+    4300000: Character
+    4300002: BadgerBody1
+    4300004: BallAttachment
+    4300006: BadgerShield
+    4300008: L_ArmPV
+    4300010: R_ArmPV
+    4300012: R_LegPV
+    4300014: L_LegPV
+    4300016: StunAttachment
+    4300018: R_Shoulder
+    4300020: L_Shoulder
+    4300022: L_Sleeve
+    4300024: R_Sleeve
+    4300026: UpperSleeve
+    7400000: WalkLeft
+    7400002: WalkFinish
+    7400004: Neutral
+    7400006: Stun
+    7400008: Throw
+    7400010: WalkRight
+    7400012: BallWalkLeft
+    7400014: BallWalkRight
+    7400016: VictoryPose
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: BallAttachment
+    13700002: Character
+    13700004: L_Shoulder
+    13700006: L_Sleeve
+    13700008: R_Shoulder
+    13700010: R_Sleeve
+    13700012: StunAttachment
+    13700014: UpperSleeve
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WalkLeft
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 20
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Neutral
+      takeName: Take 001
+      firstFrame: 35
+      lastFrame: 70
+      wrapMode: 4
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stun
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 110
+      wrapMode: 1
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Throw
+      takeName: Take 001
+      firstFrame: 150
+      lastFrame: 166
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: WalkRight
+      takeName: Take 001
+      firstFrame: 180
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BallWalkLeft
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: BallWalkRight
+      takeName: Take 001
+      firstFrame: 210
+      lastFrame: 229
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: VictoryPose
+      takeName: Take 001
+      firstFrame: 230
+      lastFrame: 318
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 6
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 1
+  userData: 

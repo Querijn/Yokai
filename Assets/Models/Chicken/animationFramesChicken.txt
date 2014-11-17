@@ -1,0 +1,12 @@
+Animation Chicken
+
+- Walk cycle		frame: 5-20	
+		(play forward = walk left, play backward = walk right)
+- Pick up ball		frame: 21-46
+- Throw ball		frame: 46-73
+- Walk cycle with ball		frame: 74-89	
+		(play forward = walk left, play backward = walk right)
+- KO + step back		frame: 91-115
+- Idle			frame: 115-185
+-Victory			frame: 185-218
+-Defeat			frame: 219-274
