@@ -1,0 +1,7 @@
+The power icons will fade I once the player was acquired it, other wise it will be transparent.
+Scoring is displayed by color coded ghosts (resign of the other onces)(Blue for blue player etc.)
+
+Time is shown in top center of screen nothing special juist move the current one we have and paint it black.
+The chaos time with use the same font we have for the title screen (font is infound here \Game\Assets\Fonts )
+
+buttons for the menu are curretnly made by artist however mockups are found in the button folder.

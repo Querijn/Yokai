@@ -1,0 +1,251 @@
+fileFormatVersion: 2
+guid: 5620ff55233437c4cb42413168faf5b3
+ModelImporter:
+  serializedVersion: 15
+  fileIDToRecycleName:
+    100000: Eyes
+    100002: L_Clavicle
+    100004: L_Ear
+    100006: L_ExtraJaw1
+    100008: L_Eye
+    100010: L_Eye 1
+    100012: L_EyeBR
+    100014: L_Index_1
+    100016: L_Index_2
+    100018: L_LowerArm
+    100020: L_Mane
+    100022: L_Middle_1
+    100024: L_Middle_2
+    100026: L_Pink_1
+    100028: L_Pink_2
+    100030: L_Ring_1
+    100032: L_Ring_2
+    100034: L_UpperArm
+    100036: L_Whrist
+    100038: Lionbodiez
+    100040: //RootNode
+    100042: LionRoot
+    100044: LowerBody
+    100046: LowerBody_2
+    100048: LowerBody_3
+    100050: LowerJaw
+    100052: LowerJaw 1
+    100054: manes1
+    100056: Neck
+    100058: Nose_1
+    100060: R_Clavicle
+    100062: R_Ear
+    100064: R_ExtraJaw1
+    100066: R_Eye
+    100068: R_Eye 1
+    100070: R_EyeBR
+    100072: R_Index_1
+    100074: R_Index_2
+    100076: R_LowerArm
+    100078: R_Mane
+    100080: R_Middle_1
+    100082: R_Middle_2
+    100084: R_Pink_1
+    100086: R_Pink_2
+    100088: R_Ring_1
+    100090: R_Ring_2
+    100092: R_UpperArm
+    100094: R_Whrist
+    400000: Eyes
+    400002: L_Clavicle
+    400004: L_Ear
+    400006: L_ExtraJaw1
+    400008: L_Eye
+    400010: L_Eye 1
+    400012: L_EyeBR
+    400014: L_Index_1
+    400016: L_Index_2
+    400018: L_LowerArm
+    400020: L_Mane
+    400022: L_Middle_1
+    400024: L_Middle_2
+    400026: L_Pink_1
+    400028: L_Pink_2
+    400030: L_Ring_1
+    400032: L_Ring_2
+    400034: L_UpperArm
+    400036: L_Whrist
+    400038: Lionbodiez
+    400040: //RootNode
+    400042: LionRoot
+    400044: LowerBody
+    400046: LowerBody_2
+    400048: LowerBody_3
+    400050: LowerJaw
+    400052: LowerJaw 1
+    400054: manes1
+    400056: Neck
+    400058: Nose_1
+    400060: R_Clavicle
+    400062: R_Ear
+    400064: R_ExtraJaw1
+    400066: R_Eye
+    400068: R_Eye 1
+    400070: R_EyeBR
+    400072: R_Index_1
+    400074: R_Index_2
+    400076: R_LowerArm
+    400078: R_Mane
+    400080: R_Middle_1
+    400082: R_Middle_2
+    400084: R_Pink_1
+    400086: R_Pink_2
+    400088: R_Ring_1
+    400090: R_Ring_2
+    400092: R_UpperArm
+    400094: R_Whrist
+    4300000: L_Eye
+    4300002: R_Eye
+    4300004: manes1
+    4300006: Lionbodiez
+    7400000: Idle
+    7400002: LookRight
+    7400004: LookLeft
+    7400006: Laugh
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: L_Eye
+    13700002: Lionbodiez
+    13700004: manes1
+    13700006: R_Eye
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    clipAnimations:
+    - name: Idle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: LookRight
+      takeName: Take 001
+      firstFrame: 110
+      lastFrame: 240
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: LookLeft
+      takeName: Take 001
+      firstFrame: 240
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    - name: Laugh
+      takeName: Take 001
+      firstFrame: 360
+      lastFrame: 580
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      transformMask: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    handles: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  additionalBone: 1
+  animationType: 1
+  userData: 
