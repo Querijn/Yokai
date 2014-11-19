@@ -28,4 +28,4 @@ A video can be found here: https://www.youtube.com/watch?v=FYSx_mJZctU
 
 =====
 
-Some of the additions include different gamemodes, and power-ups
+Some of the additions include different gamemodes, and power-ups. Other than that, we chose to stay very close to the original game.
